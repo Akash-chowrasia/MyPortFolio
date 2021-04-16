@@ -29,8 +29,8 @@ class Introduction extends React.Component {
       <div className="header center outer-structure">
         <Container fluid>
           <Row className="justify-content-center">
-            <Col lg="10">
-              <h1 id="heading-name">AKASH CHOWRASIA</h1>
+            <Col lg="12">
+              <h1 id="heading-name" style={{background:'none'}}>AKASH CHOWRASIA</h1>
               <h3 id="heading-desc">
                 <span
                   ref={(el) => {

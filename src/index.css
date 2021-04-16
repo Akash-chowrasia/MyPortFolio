@@ -9,11 +9,11 @@
   --gray-base: #203a43;
   /*CSS Properties begin*/
   background-color: var(--bg-color);
-  font-family: "Inter";
+  font-family: "monospace";
   font-weight: 500;
   font-size: 18px;
   color: #000;
-  align-items: right;
+  align-items: center;
   font-display: swap;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +42,7 @@ sm {
 }
 
 .no-js .header {
-  background: url(./assets/jpg/cocoa-beach-me.jpg) no-repeat center top;
+  background: url(./assets/jpg/background.gif) no-repeat center top;
   background-attachment: relative;
   background-position: center center;
   -webkit-background-size: cover;
@@ -52,7 +52,7 @@ sm {
 }
 
 .webp .header {
-  background: url(./assets/webp/cocoa-beach-me.webp) no-repeat center top;
+  background: url(./assets/webp/background.gif) no-repeat center top;
   background-attachment: relative;
   background-position: center center;
   -webkit-background-size: cover;
@@ -61,7 +61,7 @@ sm {
   background-size: cover;
 }
 .no-webp .header {
-  background: url(./assets/jpg/cocoa-beach-me.jpg) no-repeat center top;
+  background: url(./assets/jpg/background.gif) no-repeat center top;
   background-attachment: relative;
   background-position: center center;
   -webkit-background-size: cover;
@@ -99,7 +99,7 @@ sm {
 
 @media (min-aspect-ratio: 1/2) {
   #heading-name {
-    font-size: 6.5vw;
+    font-family: Consolas;
     text-shadow: 2px 2px 4px #000000;
     border-radius: 20px;
   }
@@ -274,7 +274,7 @@ sm {
 }
 
 .gradient-text {
-  background-color: #ff5f6d;
+  /*background-color: #ff5f6d;*/
   background: var(--light-gradient) repeat;
   background-size: 100% !important;
   -webkit-background-clip: text;
