@@ -30,7 +30,7 @@ class About extends React.Component {
                   style={{
                     padding: "25px 10px",
                     textAlign: "justify",
-                    color: "#111111",
+                    color: "white",
                     margin: "0w",
                   }}
                 >

@@ -10,7 +10,7 @@ const TitleBar = (props) => {
           margin: 0,
           padding: "1em 2em",
           borderRadius: "25px",
-          background: "#262a2e",
+          // background: "#262a2e",
           display: "inline-block",
         }}
       >

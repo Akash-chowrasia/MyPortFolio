@@ -65,24 +65,6 @@ class Experience extends Component {
               <ExperienceCard
                 image={HackUMassLogo}
                 fallback_image={HackUMassFallbackLogo}
-                title="Web Developer, Intern (Lead)"
-                organization="The Dimension"
-                address="Kolkata, West Bengal, India"
-                alternateTitle="Graphic Developer, The Dimension"
-                duration="July 2020 - December - 2020"
-                details={
-                  <React.Fragment>
-                    • Planed, designed & Monitored The complete Project
-                    <br />
-                    • Testing & Deployment of Project
-                    <br />
-                    • Engaged in Marketing Statergies as a member of organizing team
-                  </React.Fragment>
-                }
-              />
-              <ExperienceCard
-                image={HackUMassLogo}
-                fallback_image={HackUMassFallbackLogo}
                 title="Technical & Science Tutor"
                 organization="The Dimension"
                 address="Remote"
@@ -95,6 +77,24 @@ class Experience extends Component {
                     • Tought Python Programing Basic to Advance, class 7 - 11
                     <br />
                     • Explained The Fundamentals of Programing
+                  </React.Fragment>
+                }
+              />
+              <ExperienceCard
+                image={HackUMassLogo}
+                fallback_image={HackUMassFallbackLogo}
+                title="Web Developer, Intern (Lead)"
+                organization="The Dimension"
+                address="Kolkata, West Bengal, India"
+                alternateTitle="Graphic Developer, The Dimension"
+                duration="July 2020 - December 2020"
+                details={
+                  <React.Fragment>
+                    • Planed, designed & Monitored The complete Project
+                    <br />
+                    • Testing & Deployment of Project
+                    <br />
+                    • Engaged in Marketing Statergies as a member of organizing team
                   </React.Fragment>
                 }
               />

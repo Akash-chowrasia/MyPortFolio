@@ -8,7 +8,8 @@
   --gray-gradient: linear-gradient(45deg, #0f2027, #203a43);
   --gray-base: #203a43;
   /*CSS Properties begin*/
-  background-color: var(--bg-color);
+  /*background-color: var(--bg-color);*/
+  background: #0f2027;
   font-family: "monospace";
   font-weight: 500;
   font-size: 18px;
