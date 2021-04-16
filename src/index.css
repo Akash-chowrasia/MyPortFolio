@@ -43,7 +43,7 @@ sm {
 }
 
 .no-js .header {
-  background: url(./assets/jpg/background.gif) no-repeat center top;
+  /*background: url(https://cdn.statically.io/img/wallpapercave.com/wp/wp3284832.gif) no-repeat center top;*/
   background-attachment: relative;
   background-position: center center;
   -webkit-background-size: cover;
@@ -53,7 +53,7 @@ sm {
 }
 
 .webp .header {
-  background: url(./assets/webp/background.gif) no-repeat center top;
+  /*background: url(https://cdn.statically.io/img/wallpapercave.com/wp/wp3284832.gif) no-repeat center top;*/
   background-attachment: relative;
   background-position: center center;
   -webkit-background-size: cover;
@@ -62,7 +62,7 @@ sm {
   background-size: cover;
 }
 .no-webp .header {
-  background: url(./assets/jpg/background.gif) no-repeat center top;
+  /*background: url(https://cdn.statically.io/img/wallpapercave.com/wp/wp3284832.gif) no-repeat center top;*/
   background-attachment: relative;
   background-position: center center;
   -webkit-background-size: cover;
@@ -182,6 +182,7 @@ sm {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
+  padding: 20px;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
