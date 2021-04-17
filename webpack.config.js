@@ -1,6 +1,6 @@
 const path = require('path');
 
-module.exports = ({ isProduction = false }) => {
+module.exports = ({ isProduction = true }) => {
   return {
     entry: [
       '@babel/polyfill',
@@ -33,7 +33,7 @@ module.exports = ({ isProduction = false }) => {
         },
         {
           test: /\.(png|jpe?g|gif)$/i,
-          use:['file-loader']
+          use: ['file-loader'],
         },
         // {
         //   test: /\.(jpg|jpeg|gif|png|css)$/,
