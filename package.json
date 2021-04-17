@@ -1,6 +1,9 @@
 {
   "name": "Akash chowrasia",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
