@@ -38,6 +38,7 @@ specifiers:
   g: ^2.0.1
   gh-pages: ^3.1.0
   pnpm: ^5.18.9
+  polyfill: ^0.1.0
   prettier: ^2.0.5
   prop-types: ^15.7.2
   react: ^17.0.1
@@ -77,6 +78,7 @@ dependencies:
   g: 2.0.1
   gh-pages: 3.1.0
   pnpm: 5.18.9
+  polyfill: 0.1.0
   prop-types: 15.7.2
   react: 17.0.2
   react-axios: 2.0.5_ca07204cfd480638e9976841e2f5ade8
@@ -4394,6 +4396,11 @@ packages:
       string-convert: 0.2.1
     dev: false
 
+  /json3/3.2.4:
+    resolution: {integrity: sha1-aJxYnnypNAx+5JSeDRBbxb8VnyE=}
+    deprecated: Please use the native JSON object instead of JSON 3
+    dev: false
+
   /json3/3.3.3:
     resolution: {integrity: sha512-c7/8mbUsKigAbLkD5B010BK4D9LZm7A1pNItkEwiUZRpIN66exu/e7YQWysGun+TRKaJp8MhemM+VkfWv42aCA==}
     dev: true
@@ -5293,6 +5300,12 @@ packages:
     resolution: {integrity: sha512-TYIkMI/ydQkorwVe5CGTZQj0Bn1Cd7aEMYLV91AIAwqiwt7ItrHkBnwmORS49r6vpNtjYE+4M6/6O2w1tcnbaA==}
     engines: {node: '>=10.16'}
     hasBin: true
+    dev: false
+
+  /polyfill/0.1.0:
+    resolution: {integrity: sha1-3tUHy3aAKASDSzOF39O6LlEATD0=}
+    dependencies:
+      json3: 3.2.4
     dev: false
 
   /popper.js/1.16.1-lts:
