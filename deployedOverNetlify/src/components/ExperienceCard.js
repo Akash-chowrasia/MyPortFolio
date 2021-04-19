@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import {Col } from "react-bootstrap";
 
 const ExperienceCard = (props) => {
   return (
