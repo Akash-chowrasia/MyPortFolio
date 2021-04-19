@@ -25,7 +25,7 @@ const ProjectCard = (props) => {
             </imp>
             <div>
               <a href={props.redirectionUrl} target="_blank" rel="noreferrer">
-                <Button style={{background:'transparent', borderColor:'black'}}>
+                <Button style={{background:'#0f2027', borderColor:'black'}}>
                   View
                 </Button>
               </a>

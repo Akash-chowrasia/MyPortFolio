@@ -157,7 +157,7 @@ sm {
   max-width: 90vw;
   min-width: 30vw;
   width: 450px;
-  height: 350px;
+  height: 450px;
   font-size: 16px;
   padding: 0.75rem;
   perspective: 1000px; /*Remove this if you don't want the 3D effect*/
