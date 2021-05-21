@@ -17,6 +17,7 @@ class Skills extends React.Component {
               <SkillCard title="C" logo="c" color="#A8B9CC" />
               <SkillCard title="C++" logo="cplusplus" color="#00599C" />
               <SkillCard title="React.js" logo="react" color="#61DAFB" />
+              <SkillCard title="Next.js" logo="next" color="#000000" />
               <SkillCard title="Node.js" logo="node" color="#339933" />
               <SkillCard title="Express.js" logo="express" color="#339933" />
               <SkillCard title="Flask" logo="flask" color="#000000" />
@@ -28,90 +29,14 @@ class Skills extends React.Component {
               <SkillCard title="Postman" logo="postman" color="#F05032" />
               <SkillCard title="Linux" logo="linux" color="white" />
               <SkillCard title="MongoDB" logo="mongo" color="green" />
-              {/*<SkillCard title="PigLatin" logo="pig" color="#000000" />*/}
-              {/*<SkillCard title="Hadoop" logo="hadoop" color="#000000" />*/}
               <SkillCard title="Docker" logo="docker" color="yellow" />
               <SkillCard title="Mysql" logo="mysql" color="red" />
-              {/*<SkillCard title="Saas" logo="saas" color="#000000" />*/}
+              <SkillCard title="PigLatin" color="#000000" />
+              <SkillCard title="Hadoop" color="#000000" />
+              <SkillCard title="Saas" color="#000000" />
+              <SkillCard title="Tailwind" color="#000000" />
             </Row>
           </Container>
-          {/*<TitleBar title="Certifications" />*/}
-          {/*<Container fluid style={{ maxWidth: "90vw", textAlign: "center" }}>*/}
-          {/*  <Row className="justify-content-center" style={{ alignItems: "center" }}>*/}
-          {/*    <SkillCard*/}
-          {/*      title="Master the Mainframe 2020 - Level 2"*/}
-          {/*      logo="ibm"*/}
-          {/*      color="#054ADA"*/}
-          {/*      link="https://www.credly.com/badges/9b6b1f86-4922-4ebd-8317-def064c1c545?source=linked_in_profile"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Problem Solving (Basic)"*/}
-          {/*      logo="hackerrank"*/}
-          {/*      color="#2EC866"*/}
-          {/*      link="https://www.hackerrank.com/certificates/e8eb84528825"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Python (Basic)"*/}
-          {/*      logo="hackerrank"*/}
-          {/*      color="#2EC866"*/}
-          {/*      link="https://www.hackerrank.com/certificates/af328ac62ad0"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Python (Intermediate)"*/}
-          {/*      logo="hackerrank"*/}
-          {/*      color="#2EC866"*/}
-          {/*      link="https://www.hackerrank.com/certificates/ebf245c0eb27"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Java (Basic)"*/}
-          {/*      logo="hackerrank"*/}
-          {/*      color="#2EC866"*/}
-          {/*      link="https://www.hackerrank.com/certificates/6a630c2133d9"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Java (Intermediate)"*/}
-          {/*      logo="hackerrank"*/}
-          {/*      color="#2EC866"*/}
-          {/*      link="https://www.hackerrank.com/certificates/dfdcfe8f8ee4"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="JavaScript (Basic)"*/}
-          {/*      logo="hackerrank"*/}
-          {/*      color="#2EC866"*/}
-          {/*      link="https://www.hackerrank.com/certificates/7af2e8e3f0e3"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="C++ (Basic)"*/}
-          {/*      logo="hackerrank"*/}
-          {/*      color="#2EC866"*/}
-          {/*      link="https://www.hackerrank.com/certificates/d70364be6715"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Basic Sentiment Analysis with Tensorflow"*/}
-          {/*      logo="coursera"*/}
-          {/*      color="#0056D2"*/}
-          {/*      link="https://www.coursera.org/account/accomplishments/certificate/FW95PRL5XQMG"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Coding Yourself! An Introduction to Programming"*/}
-          {/*      logo="coursera"*/}
-          {/*      color="#0056D2"*/}
-          {/*      link="https://www.coursera.org/account/accomplishments/certificate/JLT5JKWWGYXD"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Data Science Math Skills"*/}
-          {/*      logo="coursera"*/}
-          {/*      color="#0056D2"*/}
-          {/*      link="https://www.coursera.org/account/accomplishments/certificate/XMUUAGNJYU3S"*/}
-          {/*    />*/}
-          {/*    <SkillCard*/}
-          {/*      title="Introduction to Programming in MATLAB"*/}
-          {/*      logo="coursera"*/}
-          {/*      color="#0056D2"*/}
-          {/*      link="https://www.coursera.org/account/accomplishments/certificate/N5LXRJWDUA2D"*/}
-          {/*    />*/}
-          {/*  </Row>*/}
-          {/*</Container>*/}
         </div>
       </div>
     );

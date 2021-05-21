@@ -17,6 +17,27 @@ class Projects extends React.Component {
               <ProjectCard
                 image = {BUILDLogo}
                 fallback_image = {BUILDFallbackLogo}
+                title="MyCovidHelpLine"
+                organization="Plaxonic technologies"
+                date="April 2021 - May 2021"
+                major=<p style={{color:'yellow'}}>Javascript</p>
+              alternateTitle="MyCovidHelpLine | Covid Relief | Full Stack"
+              skills="Node.js, Express.js, Next.js, Bootstrap, MongoDB"
+              details={
+              <React.Fragment>
+                • It is a Running website for covid relief
+                <br />
+                • Makes communication between patients & supplier.
+                <br />
+                • Fast response on google search at low internet.
+              </React.Fragment>
+            }
+              redirectionUrl="http://mycovidhelpline.in/"
+              />
+
+              <ProjectCard
+                image = {BUILDLogo}
+                fallback_image = {BUILDFallbackLogo}
                 title="Dark Folio"
                 organization="Plaxonic technologies"
                 date="march 2021 - present"
@@ -35,31 +56,6 @@ class Projects extends React.Component {
                   </React.Fragment>
                 }
                 redirectionUrl="https://github.com/Akash-chowrasia/darkFolio"
-              />
-
-              <ProjectCard
-                image = {BUILDLogo}
-                fallback_image = {BUILDFallbackLogo}
-                title="Order Book"
-                organization="Plaxonic technologies"
-                date="February 2021 - February 2021"
-                major=<p style={{color:'yellow'}}>Javascript</p>
-                alternateTitle="Order Book | My OLX Store | Backend"
-                skills="Node.js, Express.js, MongoDB"
-                details={
-                  <React.Fragment>
-                    • One can Buy any product.
-                    <br />
-                    • One can sell any Product.
-                    <br />
-                    • One can add, extract or use their wallet amount.
-                    <br />
-                    • One can see his sell & buy history.
-                    <br />
-                    • Completely secure & reliable system via session management.
-                  </React.Fragment>
-                }
-                redirectionUrl="https://github.com/Akash-chowrasia/order-book"
               />
 
               <ProjectCard
@@ -159,26 +155,26 @@ class Projects extends React.Component {
               <ProjectCard
                 image = {BUILDLogo}
                 fallback_image = {BUILDFallbackLogo}
-                title="Smarty"
-                organization="ACET, Amritsar"
-                date="March 2019 - July 2019"
-                major=<p style={{color:'blue'}}>Python</p>
-              alternateTitle="Smarty | Personal Assistant | Console Application"
-              skills="Python, Linux, OpenCv, Pandas, Numpy, Requests, BeautifulSoup, Mysql"
+                title="Order Book"
+                organization="Plaxonic technologies"
+                date="February 2021 - February 2021"
+                major=<p style={{color:'yellow'}}>Javascript</p>
+              alternateTitle="Order Book | My OLX Store | Backend"
+              skills="Node.js, Express.js, MongoDB"
               details={
               <React.Fragment>
-                • Can perform any matheatical operation on layman language input.
+                • One can Buy any product.
                 <br />
-                • You can ask date, time, system status, path, search history.
+                • One can sell any Product.
                 <br />
-                • Can download pdf & musics, can play musics from system or youtube.
+                • One can add, extract or use their wallet amount.
                 <br />
-                • It manages all the system file structure and able to find any file.
+                • One can see his sell & buy history.
                 <br />
-                • Can create & execute any of programming language file.
+                • Completely secure & reliable system via session management.
               </React.Fragment>
-              }
-              redirectionUrl="https://github.com/Akash-chowrasia/Smarty"
+            }
+              redirectionUrl="https://github.com/Akash-chowrasia/order-book"
               />
 
               <ProjectCard
@@ -312,7 +308,7 @@ class Projects extends React.Component {
                 date="March 2021 - present"
                 major=<p style={{color:'yellow'}}>Javascript</p>
               alternateTitle="Paycron | e-check processor | Full Stack"
-              skills="Node.js, Express.js, Passport.js, React.js, MongoDB, Redis, Docker, kubernetes, elastic, CI-CD"
+              skills="Node.js, Express.js, React.js, MongoDB, Redis, Docker"
               details={
               <React.Fragment>
                 • It is a product for e-check processing.
@@ -323,6 +319,31 @@ class Projects extends React.Component {
               </React.Fragment>
             }
               redirectionUrl="https://inspiring-wright-e29c46.netlify.app/#/projects"
+              />
+
+              <ProjectCard
+                image = {BUILDLogo}
+                fallback_image = {BUILDFallbackLogo}
+                title="Smarty"
+                organization="ACET, Amritsar"
+                date="March 2019 - July 2019"
+                major=<p style={{color:'blue'}}>Python</p>
+              alternateTitle="Smarty | Personal Assistant | Console Application"
+              skills="Python, Linux, OpenCv, Pandas, Numpy, Requests, BeautifulSoup, Mysql"
+              details={
+              <React.Fragment>
+                • Can perform any matheatical operation on layman language input.
+                <br />
+                • You can ask date, time, system status, path, search history.
+                <br />
+                • Can download pdf & musics, can play musics from system or youtube.
+                <br />
+                • It manages all the system file structure and able to find any file.
+                <br />
+                • Can create & execute any of programming language file.
+              </React.Fragment>
+            }
+              redirectionUrl="https://github.com/Akash-chowrasia/Smarty"
               />
             </Row>
           </Container>

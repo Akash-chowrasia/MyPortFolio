@@ -70,9 +70,13 @@ class Footer extends React.Component {
       <Navbar
         className="dark-bar"
         style={{
+          display: "flex",
+          // gridTemplateRows:"1f 1f",
+          flexDirection: "column",
           position: "sticky",
           bottom: 0,
           zIndex: 2000,
+          justifyContent:'center',
         }}
         variant="dark"
       >
@@ -118,6 +122,9 @@ class Footer extends React.Component {
             {smallViewArray[9]}
           </Nav.Link>
         </Nav>
+        {/*<Nav>*/}
+        {/*  <Nav.Link href="/#/privacy-policy"><span>privacy policy</span></Nav.Link>*/}
+        {/*</Nav>*/}
       </Navbar>
     );
   }

@@ -12,6 +12,7 @@ const Experience = lazy(() => import("./pages/Experience"));
 const Projects = lazy(() => import("./pages/Projects"));
 const Skills = lazy(() => import("./pages/Skills"));
 const Achievements = lazy(() => import("./pages/Achievements"));
+const PrivacyPolicy = lazy(() => import("./pages/privacy-policy"));
 const Error_404 = lazy(() => import("./pages/Error_404"));
 
 const Loading = () => {
@@ -36,6 +37,7 @@ const App = () => {
             <Route exact path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
             <Route exact path={process.env.PUBLIC_URL + "/skills"} component={Skills} />
             <Route exact path={process.env.PUBLIC_URL + "/achievements"} component={Achievements} />
+            <Route exact path={process.env.PUBLIC_URL + "/privacy-policy"} component={PrivacyPolicy} />
             <Route component={Error_404} />
           </Switch>
         </Suspense>

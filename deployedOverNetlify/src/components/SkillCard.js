@@ -20,8 +20,9 @@ import {
   Blender,
   Ibm,
   Hackerrank,
-  Coursera, Express, Postman, Linux, Mongodb, Docker, Mysql,
+  Coursera, Express, Postman, Linux, Mongodb, Docker, Mysql, NextDotJs
 } from "@icons-pack/react-simple-icons";
+import Pig from '../assets/jpg/pig.jpg';
 import { Row, Button } from "react-bootstrap";
 
 const logoDictionary = {
@@ -51,16 +52,20 @@ const logoDictionary = {
   linux:Linux,
   mongo:Mongodb,
   docker:Docker,
-  mysql:Mysql
+  mysql:Mysql,
+  next:NextDotJs,
+  any:''
 };
 
 const SkillCard = (props) => {
-  let Logo = logoDictionary[`${props.logo}`];
+  let Logo = logoDictionary[`${props.logo? props.logo: 'any'}`];
   console.log(Logo);
-  return (
+  return(
     <Button className="resume-btn" size="md" href={props.link} target="_blank">
       <Row>
-        <Logo size={24} color={props.color} />
+        {
+          props.logo && <Logo size={24} color={props.color} />
+        }
         <span style={{ padding: "0px 5px" }}>{props.title}</span>
       </Row>
     </Button>
