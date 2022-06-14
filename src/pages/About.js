@@ -1,11 +1,12 @@
 import React from "react";
-import {Button, Container, Row, Col, Nav, Navbar} from "react-bootstrap";
+import { Button, Container, Row, Col, Nav, Navbar } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileAlt, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 import TitleBar from "../components/TitleBar";
 import ProfessionalHeadshot from "../assets/webp/professional-me.webp";
 import FallbackProfessionalHeadshot from "../assets/jpg/professional-me.jpg";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 class About extends React.Component {
   render() {
@@ -29,15 +30,16 @@ class About extends React.Component {
                   className="secondary-text"
                   style={{
                     padding: "25px 10px",
-                    textAlign: "justify",
+                    textAlign: "center",
                     color: "white",
                     margin: "0w",
                   }}
                 >
-                  This is ME, Akash chowrasia, a final year undergraduate from Amritsar college of engineering & technology.
-                  A budding Full-Stack Software Engineer, and a Competitive Programming Enthusiast  ,
-                  who is obsessed with the idea of improving himself and wants a platform to grow and excel  in the field
-                  of Reasearch & Development.
+                  I am Working with passion for myself. I think I am a good software engineer and I always look for new target and way to make myself more better.<br />
+                  I like the feeling after beating those challenges that gives me confidence to tackle new hurdles.<br />
+                  I believe in "The Secret" theory, that really works for me bunch of times in my life.<br />
+                  I believe in "the future is the result of what we do today".<br />
+                  I love development.
                 </p>
               </Col>
             </Row>
@@ -47,11 +49,13 @@ class About extends React.Component {
               </Button>
               <Button
                 className="resume-btn"
-                href="https://wbfbwbalyqslf9zsesgzba-on.drv.tw/web/"
+                // href="https://wbfbwbalyqslf9zsesgzba-on.drv.tw/web/"
+                href="https://www.linkedin.com/in/aksia/"
                 target="_blank"
                 size="lg"
               >
-                <FontAwesomeIcon icon={faGlobe} /> Old Website
+                {/* <FontAwesomeIcon icon={faGlobe} /> Old Website */}
+                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
               </Button>
             </Row>
           </Container>

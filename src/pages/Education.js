@@ -98,6 +98,13 @@ class Education extends React.Component {
           <Container fluid style={{ maxWidth: "95vw", textAlign: "center" }}>
             <Row style={{ alignItems: "center", display: "inline-flex", justifyContent: "center" }}>
               <CourseworkButton
+                title="Reaact, The Complete Guide"
+                // shortcode="Credencial - UC-4e122b00-297c-44ec-a8b9-6bf0fd5721b5"
+                term="January 2022"
+                institution="Udemy | Remote"
+                link="https://www.udemy.com/certificate/UC-4e122b00-297c-44ec-a8b9-6bf0fd5721b5/"
+              />
+              <CourseworkButton
                 title="Programming In C"
                 shortcode="Credencial - 089977"
                 term="July 2018"

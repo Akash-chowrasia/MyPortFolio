@@ -13,13 +13,25 @@ class Achievements extends React.Component {
           <Container fluid>
             <Row className="justify-content-center" style={{ alignItems: "center" }}>
               <AchievementsCard
+                title="Solitaire Award"
+                institution="Sopra Steria"
+                date="January 2022"
+                details={
+                  <React.Fragment>
+                    ✔ I Recieved This Award For good team play.<br />
+                    ✔ I had a good participation on completing tasks related to React Js actively.
+                  </React.Fragment>
+                }
+              />
+              <AchievementsCard
                 title="Best Trainee"
                 institution="Amritsar college of Engineering & Technology"
                 date="May 2018"
                 details={
                   <React.Fragment>
-                    I got Awarded as Best Trainee among all the students of the batch 2017-2021 in my college by
-                    Computer science and engineering society.
+                    ✔ I Recieved this honor in Institutional training and development program organised by college.<br />
+                    ✔ It was a C++ training program.<br />
+                    ✔ I have recieved this honor on bahalf of my active response and project Quiz game.
                   </React.Fragment>
                 }
               />
@@ -29,8 +41,8 @@ class Achievements extends React.Component {
                 date="June 2019"
                 details={
                   <React.Fragment>
-                    Recognised as One of Best Project developer in Amritsar college of engineering and Technology
-                    for the duration of my college tenure.
+                    ✔ I have been declared as one of the best project developer in the department.<br />
+                    ✔ I recieved this honor with reference of my Projects Quiz Game & Smarty.
                   </React.Fragment>
                 }
               />
@@ -40,19 +52,20 @@ class Achievements extends React.Component {
                 date="Jan 2020 - Dec 2020"
                 details={
                   <React.Fragment>
-                    Successfully published 5 Technical Articles at Geeksforgeeks based on Cyber security,
-                    Hadoop & Competitive programming.
+                    ✔ published 5 Technical Articles at Geeksforgeeks.<br/>
+                    ✔ Topics were Cyber security, Hadoop & Competitive coding.
                   </React.Fragment>
                 }
               />
               <AchievementsCard
                 title="Paper Publication"
-                institution="International Conference"
-                date="September 2020"
+                institution="International Conferences"
+                date="September 2020, September 2021"
                 details={
                   <React.Fragment>
-                    I have published a paper on "A case study on Crime Dataset, Maryland - US" in "International
-                    Conference On Data Science and Machine Learning, 2020" as The main Author.
+                    ✔ published 2 papers successfully in international conferences as main author.<br/>
+                    ✔ In ICDSML - "A case study on Crime Dataset, Maryland - US".<br/>
+                    ✔ In FCDSEGS - "Documentary review 'Role of Technical Doctrines in Space Science'".
                   </React.Fragment>
                 }
               />
@@ -62,7 +75,7 @@ class Achievements extends React.Component {
                 date="June 2017"
                 details={
                   <React.Fragment>
-                    I have cracked Jee Mains & Jee Advance in 2017 from Mentor classes, Patna
+                    ✔ I have cracked Jee Mains & Jee Advance in 2017 from Mentor classes, Patna
                   </React.Fragment>
                 }
               />
@@ -72,7 +85,7 @@ class Achievements extends React.Component {
                 date="August 2014"
                 details={
                   <React.Fragment>
-                    I Got Third Prize in My secondary school for being third topper with a total marks of 75%
+                    ✔ I Got Third Prize in My secondary school for being third topper with a total marks of 75%
                   </React.Fragment>
                 }
               />

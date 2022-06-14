@@ -6,11 +6,13 @@ import TitleBar from "../components/TitleBar";
 
 import TEDxRKPLogo from "../assets/webp/tedxyouth-logo.webp";
 import BUILDLogo from "../assets/webp/build-logo.webp";
+import SopraSteriaLogo from "../assets/webp/sopra-steria-logo.webp";
 import VirtuBoxLogo from "../assets/webp/virtubox-logo.webp";
 import HackUMassLogo from "../assets/webp/hackumass-logo.webp";
 
 import TEDxRKPFallbackLogo from "../assets/jpg/tedxyouth-logo.jpg";
 import BUILDFallbackLogo from "../assets/jpg/build-logo.jpg";
+import SopraSteriaFallbackLogo from "../assets/jpg/sopra-steria-logo.jpg";
 import VirtuBoxFallbackLogo from "../assets/jpg/virtubox-logo.jpg";
 import HackUMassFallbackLogo from "../assets/jpg/hackumass-logo.jpg";
 import SmvLogo from "../assets/webp/smv-logo.webp";
@@ -25,20 +27,38 @@ class Experience extends Component {
           <Container fluid style={{ textAlign: "center" }}>
             <Row style={{ display: "inline-flex" }}>
               <ExperienceCard
+                image={SopraSteriaLogo}
+                fallback_image={SopraSteriaFallbackLogo}
+                title="Software Engineer"
+                organization="Sopra Steria"
+                address="Noida, Utter Pradesh, India"
+                alternateTitle="Software Engineer, Sopra Steria"
+                duration="August 2021 - Present"
+                details={
+                  <React.Fragment>
+                    • Worked on React, Redux, Jest & Engyme.
+                    <br />
+                    • Working on OpenApi Specification for Backend Apis.
+                    <br />
+                    • Learned WPF, MSSQL, C#.
+                  </React.Fragment>
+                }
+              />
+              <ExperienceCard
                 image={BUILDLogo}
                 fallback_image={BUILDFallbackLogo}
                 title="Software Engineer"
                 organization="Plaxonic Technologies"
                 address="Noida, Utter Pradesh, India"
                 alternateTitle="Software Engineer, Plaxonic Technologies"
-                duration="September 2020 - Present"
+                duration="September 2020 - August 2021"
                 details={
                   <React.Fragment>
-                    • Developed various Marketing Analysis tools using Python.
+                    • Developed Marketing Analysis & Scrapping tools using Python.
                     <br />
-                    • Developed 2 Client Projects using Flask, React & Nodejs
+                    • Developed Client Projects using Flask, React & Nodejs.
                     <br />
-                    • Developing Product named Paycron, with team of 2 people using ReactJs & NodeJs
+                    • Developed 2 Government Projects using Next.js & Node.js.
                   </React.Fragment>
                 }
               />
@@ -63,58 +83,6 @@ class Experience extends Component {
                 }
               />
               <ExperienceCard
-                image={HackUMassLogo}
-                fallback_image={HackUMassFallbackLogo}
-                title="Technical & Science Tutor"
-                organization="The Dimension"
-                address="Remote"
-                alternateTitle="Technical Tutor, The Dimension"
-                duration="January 2019 - Present"
-                details={
-                  <React.Fragment>
-                    • Tought Organic Chemistry, class 11 & 12
-                    <br />
-                    • Tought Python Programing Basic to Advance, class 7 - 11
-                    <br />
-                    • Explained The Fundamentals of Programing
-                  </React.Fragment>
-                }
-              />
-              <ExperienceCard
-                image={HackUMassLogo}
-                fallback_image={HackUMassFallbackLogo}
-                title="Web Developer, Intern (Lead)"
-                organization="The Dimension"
-                address="Kolkata, West Bengal, India"
-                alternateTitle="Graphic Developer, The Dimension"
-                duration="July 2020 - December 2020"
-                details={
-                  <React.Fragment>
-                    • Planed, designed & Monitored The complete Project
-                    <br />
-                    • Testing & Deployment of Project
-                    <br />
-                    • Engaged in Marketing Statergies as a member of organizing team
-                  </React.Fragment>
-                }
-              />
-              <ExperienceCard
-                image={SmvLogo}
-                fallback_image={SmvFallbackLogo}
-                title="Team Lead"
-                organization="Scout Council, Shree Maheshwary Vidyalaya"
-                address="Kolkata, West Bengal, India"
-                alternateTitle="President, Student Council"
-                duration="Jan 2012 - April 2013"
-                details={
-                  <React.Fragment>
-                    • Represented school with my team in state level scout show
-                    <br />
-                    • Guided junior's scout team for performance.
-                  </React.Fragment>
-                }
-              />
-              <ExperienceCard
                 image={TEDxRKPLogo}
                 fallback_image={TEDxRKPFallbackLogo}
                 title="Program Analyst"
@@ -135,6 +103,58 @@ class Experience extends Component {
                     • Developed various full client projects.
                     <br />
                     • Worked on training and Development of Ambassadors and Interns.
+                  </React.Fragment>
+                }
+              />
+              <ExperienceCard
+                image={HackUMassLogo}
+                fallback_image={HackUMassFallbackLogo}
+                title="Web Developer, Intern (Lead)"
+                organization="The Dimension"
+                address="Kolkata, West Bengal, India"
+                alternateTitle="Graphic Developer, The Dimension"
+                duration="August 2020 - October 2020"
+                details={
+                  <React.Fragment>
+                    • Planed, designed & Monitored The complete Project
+                    <br />
+                    • Testing & Deployment of Project
+                    <br />
+                    • Engaged in Marketing Statergies as a member of organizing team
+                  </React.Fragment>
+                }
+              />
+              <ExperienceCard
+                image={HackUMassLogo}
+                fallback_image={HackUMassFallbackLogo}
+                title="Technical & Science Tutor"
+                organization="The Dimension"
+                address="Remote"
+                alternateTitle="Technical Tutor, The Dimension"
+                duration="January 2019 - Present"
+                details={
+                  <React.Fragment>
+                    • Tought Organic Chemistry, class 11 & 12
+                    <br />
+                    • Tought Python Programing Basic to Advance, class 7 - 11
+                    <br />
+                    • Explained The Fundamentals of Programing
+                  </React.Fragment>
+                }
+              />
+              <ExperienceCard
+                image={SmvLogo}
+                fallback_image={SmvFallbackLogo}
+                title="Team Lead"
+                organization="Scout Council, Shree Maheshwary Vidyalaya"
+                address="Kolkata, West Bengal, India"
+                alternateTitle="President, Student Council"
+                duration="Jan 2012 - April 2013"
+                details={
+                  <React.Fragment>
+                    • Represented school with my team in state level scout show
+                    <br />
+                    • Guided junior's scout team for performance.
                   </React.Fragment>
                 }
               />
